@@ -1,0 +1,6 @@
+streamlit
+openai
+unstructured
+chromadb
+pillow
+python-dotenv

@@ -1,0 +1,113 @@
+[
+  {
+    "issue_code": "name_mismatch",
+    "title": "Name Mismatch",
+    "description": "The name on the submitted document does not match the record in the database.",
+    "possible_causes": [
+      "Typographical errors in the document or database.",
+      "Different formatting or order of names.",
+      "Use of nicknames or abbreviated names."
+    ],
+    "recommended_actions": [
+      "Verify the spelling of the name in the document and database.",
+      "Ask the candidate to provide a government-issued ID for clarification.",
+      "Update database records if an official name change has occurred."
+    ],
+    "critical": true,
+    "severity": "high",
+    "escalation_note": "Please flag to HR immediately if identity verification fails.",
+    "faq": [
+      "Why does my name not match the database?",
+      "How can I correct my name in the records?",
+      "What documents are accepted for name verification?"
+    ]
+  },
+  {
+    "issue_code": "dob_mismatch",
+    "title": "Date of Birth Mismatch",
+    "description": "The date of birth on the submitted document does not match the record in the database.",
+    "possible_causes": [
+      "Data entry errors.",
+      "Incorrect date format or interpretation.",
+      "Outdated or incorrect database records."
+    ],
+    "recommended_actions": [
+      "Request the candidate to confirm the date of birth with supporting documents.",
+      "Correct database records if necessary."
+    ],
+    "critical": false,
+    "severity": "medium",
+    "escalation_note": "Notify HR if repeated mismatches occur.",
+    "faq": [
+      "Why is my date of birth mismatched?",
+      "How can I update my date of birth in the system?",
+      "Which documents are valid for date of birth verification?"
+    ]
+  },
+  {
+    "issue_code": "license_number_mismatch",
+    "title": "License Number Mismatch",
+    "description": "The license number on the submitted document does not match the record in the database.",
+    "possible_causes": [
+      "Incorrect license number entered in database.",
+      "Expired or invalid license number provided.",
+      "Candidate may have renewed or updated their license."
+    ],
+    "recommended_actions": [
+      "Confirm license number with candidate and relevant licensing authority.",
+      "Update database records if license is renewed."
+    ],
+    "critical": true,
+    "severity": "high",
+    "escalation_note": "Escalate to HR and compliance team immediately.",
+    "faq": [
+      "What should I do if my license number does not match?",
+      "How can I verify the correct license number?",
+      "Who do I contact for license renewal?"
+    ]
+  },
+  {
+    "issue_code": "validity_date_mismatch",
+    "title": "License Validity Date Mismatch",
+    "description": "The validity date on the submitted document does not match the database record.",
+    "possible_causes": [
+      "Document is expired or near expiry.",
+      "Database has outdated validity information.",
+      "Candidate may have renewed license but database not updated."
+    ],
+    "recommended_actions": [
+      "Ask the candidate to provide the latest valid license.",
+      "Update database with current validity dates."
+    ],
+    "critical": true,
+    "severity": "high",
+    "escalation_note": "Immediate attention needed to avoid compliance risks.",
+    "faq": [
+      "Why does my license validity date not match the database?",
+      "What happens if my license is expired?",
+      "How can I update my license validity in the system?"
+    ]
+  },
+  {
+    "issue_code": "field_missing",
+    "title": "Required Field Missing",
+    "description": "One or more required fields are missing or unclear in the submitted document.",
+    "possible_causes": [
+      "Poor scan quality or document damage.",
+      "Candidate omission or incomplete submission.",
+      "Document not in expected format."
+    ],
+    "recommended_actions": [
+      "Request clearer scans or re-submission of documents.",
+      "Provide guidance on required document format and fields."
+    ],
+    "critical": false,
+    "severity": "medium",
+    "escalation_note": "Follow up with candidate before escalating.",
+    "faq": [
+      "What should I do if my document is rejected due to missing fields?",
+      "How can I provide a better quality scan?",
+      "Which fields are mandatory on the document?"
+    ]
+  }
+]
