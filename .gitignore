@@ -1,0 +1,22 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environment
+venv/
+.env
+.venv/
+env/
+
+# macOS
+.DS_Store
+
+# Streamlit config
+.streamlit/secrets.toml
+
+# VSCode or editor settings
+.vscode/
+
+# Uploaded files or user data
+data/uploads/
