@@ -4,11 +4,7 @@ An AI-powered SaaS solution for staffing agencies to automate onboarding and com
 
 ---
 
-## 🚀 How to Run Locally
-
-### 1. Clone this repository, create & activate virtual environment, and install dependencies
-
-`## 🛠️ Local Setup Instructions
+## 🛠️ Local Setup Instructions
 
 Follow these steps to run the app locally.
 
@@ -17,45 +13,30 @@ Follow these steps to run the app locally.
 ```bash
 git clone https://github.com/your-username/your-repo-name.git
 cd your-repo-name
-2. 🐍 (Optional) Create a Virtual Environment
+2. 🐍 Create a Virtual Environment (Optional but Recommended)
 Helps keep dependencies isolated.
-
-bash
-Copy
-Edit
-python -m venv env
+bashpython -m venv env
 source env/bin/activate          # For Linux/macOS
 # OR
 env\Scripts\activate             # For Windows
 3. 📦 Install Dependencies
 Make sure you have Python ≥3.9 installed.
-
-bash
-Copy
-Edit
-pip install -r requirements.txt
-4. 🗝️ Set Environment Variables (if using .env)
+bashpip install -r requirements.txt
+4. 🗝️ Set Environment Variables
 If your app needs API keys (e.g., OpenAI), create a .env file in the root directory:
-
-bash
-Copy
-Edit
-touch .env                     # or create manually in any editor
+bashtouch .env                     # or create manually in any editor
 Then add your secrets like this:
-
-ini
-Copy
-Edit
-OPENAI_API_KEY=your-key-here
+iniOPENAI_API_KEY=your-key-here
 GROQ_API_KEY=your-groq-key
-Make sure .env is listed in .gitignore to avoid pushing secrets.
-
+Important: Make sure .env is listed in .gitignore to avoid pushing secrets to your repository.
 5. ▶️ Run the Streamlit App
 Start the frontend locally:
-
-bash
-Copy
-Edit
-streamlit run main.py
+bashstreamlit run main.py
 The app should open automatically in your browser at http://localhost:8501
 
+🔧 Troubleshooting
+If you encounter any issues:
+
+Ensure Python 3.9+ is installed
+Check that all dependencies are installed correctly
+Verify your API keys are set properly in the .env file
